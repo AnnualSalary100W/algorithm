@@ -29,6 +29,7 @@ public class Offer3 {
                 list.add(0,listNode.val);
                 listNode=listNode.next;
             }
+
             return list;
         }
 
