@@ -3,7 +3,7 @@ package offer;
 import java.util.ArrayList;
 
 
-public class Offer3 {
+public class Offer_3 {
 
     public static class ListNode {
         int val;
