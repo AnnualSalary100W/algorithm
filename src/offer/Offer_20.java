@@ -4,7 +4,12 @@ import java.util.Stack;
 
 public class Offer_20 {
     public static void main(String[] args) {
-
+        Offer_20 stack =new Offer_20();
+        stack.push(6);
+        stack.push(2);
+        stack.push(3);
+        stack.push(5);
+        System.out.println(stack.min());
     }
 
 
