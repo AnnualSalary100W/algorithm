@@ -9,10 +9,10 @@ import java.util.ArrayList;
  *
  *
  */
-public class Offer19 {
+public class Offer_19 {
 
     public static void main(String[] args) {
-        System.out.println(new Offer19().printMatrix(new int[][]{{1,2},{2,3},{3,4},{4,5},{5,6}}));
+        System.out.println(new Offer_19().printMatrix(new int[][]{{1,2},{2,3},{3,4},{4,5},{5,6}}));
     }
     public ArrayList<Integer> printMatrix(int [][] matrix) {
         ArrayList<Integer> list =new ArrayList<>();
