@@ -10,6 +10,7 @@ public class Offer_20 {
         stack.push(3);
         stack.push(5);
         stack.push(7);
+        stack.push(1);
         System.out.println(stack.min());
     }
 
