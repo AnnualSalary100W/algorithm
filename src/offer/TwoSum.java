@@ -2,6 +2,12 @@ package offer;
 
 import java.util.*;
 
+
+/**
+ *
+ *
+ * 一个数组找两个数字和等于target
+ */
 public class TwoSum {
 
 
