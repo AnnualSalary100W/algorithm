@@ -3,6 +3,9 @@ package offer;
 import java.util.Scanner;
 
 
+/**
+ *  最后一个单词的长度
+ */
 
 public class LengthOfLastWord {
     public static void main(String args[]){
