@@ -9,9 +9,6 @@ import java.util.*;
  * 一个数组找两个数字和等于target
  */
 public class TwoSum {
-
-
-
         public static void main(String args[]){
             Scanner sc =new Scanner(System.in);
             String line=sc.nextLine();
@@ -23,7 +20,6 @@ public class TwoSum {
             }
 String result=Arrays.toString(method1( nums,target));
             System.out.println(result);
-
         }
 
         public  static int[] method1(int[] nums, int target) {
@@ -31,7 +27,6 @@ String result=Arrays.toString(method1( nums,target));
                 for (int j = i + 1; j < nums.length; j++) {
                     if (nums[j] + nums[i] == target) {
                         return new int[]{i, j};
-
                     }
                 }
             }
