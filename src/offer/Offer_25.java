@@ -43,7 +43,6 @@ public class Offer_25 {
         tmpNode.next=Clone(oldNode.next);
         tmpNode.random=Clone(oldNode.random);
         return tmpNode;
-
         }
 
 }
