@@ -30,19 +30,26 @@ public class Offer_25 {
             this.label = label;
         }
     }
-    HashMap<RandomListNode,RandomListNode> map=new HashMap<>();
-        public RandomListNode Clone(RandomListNode oldNode)
-        {if (oldNode==null){
-            return null;
-        }
-        if (map.containsKey(oldNode)){
-            return map.get(oldNode);
-        }
-            RandomListNode tmpNode =new RandomListNode(oldNode.label);
-        map.put(oldNode,tmpNode);
-        tmpNode.next=Clone(oldNode.next);
-        tmpNode.random=Clone(oldNode.random);
-        return tmpNode;
-        }
 
-}
+        public RandomListNode Clone(RandomListNode pHead){
+            HashMap<RandomListNode, RandomListNode> map = new HashMap<RandomListNode, RandomListNode>();
+            RandomListNode cur = pHead;
+            while (cur != null) {
+                map.put(cur, new RandomListNode(cur.label));
+                cur = cur.next;
+            }
+            cur = pHead;
+            while (cur != null) {
+                map.get(cur).next = map.get(cur.next);
+                cur = cur.next;
+            }
+            RandomListNode resHead = map.get(pHead);
+            cur = pHead;
+            while (cur != null) {
+                map.get(cur).random = map.get(cur.random);
+                cur = cur.next;
+            }
+            return resHead;
+
+
+}}
