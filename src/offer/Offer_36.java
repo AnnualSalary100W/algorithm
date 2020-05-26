@@ -6,6 +6,7 @@ import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 （注意因为传入数据是链表，所以错误测试数据的提示是用其他方式显示的，保证传入数据是正确的）
  */
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Offer_36 {
     public class ListNode {
@@ -20,13 +21,13 @@ public class Offer_36 {
         ListNode current2 = pHead2;
 
 
-        ArrayList<Integer> list=new ArrayList<>();
+        HashMap<ListNode, Integer> hashMap = new HashMap<ListNode, Integer>();
         while (current1 != null) {
-            list.add(current1.val);
+            hashMap.put(current1, null);
             current1 = current1.next;
         }
         while (current2 != null) {
-            if (list.contains(current2))
+            if (hashMap.containsKey(current2))
                 return current2;
             current2 = current2.next;
         }
