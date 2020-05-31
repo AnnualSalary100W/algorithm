@@ -15,31 +15,33 @@ HF作为牛客的资深元老,自然也准备了一些小游戏。其中,有个�
  */
 public class Offer_46 {
     public static void main(String[] args) {
-        System.out.println(LastRemaining_Solution(6,7));
+        System.out.println(LastRemaining_Solution(5,3));
     }
     public static int LastRemaining_Solution(int n, int m) {
-        if (n==0){
-            return -1;
-        }
+     if (n<=0){
+         return -1;
+     }
+     ArrayList<Integer> list=new ArrayList<Integer>();
+     int count=0;
+     int index=-1;
+     for (int i=0;i<n;i++){
+         list.add(i);
+     }
+     while (list.size()>1){
 
-        ArrayList<Integer> list=new ArrayList<Integer>();
-for (int i=0;i<n;i--){
-    list.add(i);
+         while (count<m){
+             count++;
+             index++;
+             if (index==list.size()){
+                 index=0;
+           }
+         }
+
+
+      list.remove(index);
+         index--;
+count=0;
+     }
+     return list.get(0);
 }
-int index=-1;
-while (list.size()>1){
-    int count=0;
-    while (count<m){
-        count++;
-        index++;
-        if (index==list.size()){
-            index=0;
-        }
-    }
-    list.remove(index);
-    index--;
-
 }
-
-return list.get(0);
-}}
