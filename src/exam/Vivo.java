@@ -12,6 +12,7 @@ import java.util.*;
 你的目标是确切地知道 F 的值是多少。
 
 无论 F 的初始值如何，你确定 F 的值的最小移动次数是多少？
+
  */
 public class Vivo {
     public static void main(String[] args) {
