@@ -2,6 +2,7 @@ package exam;
 import java.util.*;
 /*
 种草问题
+
  */
 public class Vivo6 {
     public static void main(String[] args) {
