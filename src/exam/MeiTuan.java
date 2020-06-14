@@ -1,7 +1,11 @@
 package exam;
 
 import java.util.*;
-
+/*
+给出两个字符串，分别是模式串P和目标串T，判断模式串和目标串是否匹配，匹配输出 1，不匹配输出 0。
+模式串中‘？’可以匹配目标串中的任何字符，模式串中的 ’*’可以匹配目标串中的任何长度的串，
+模式串的其它字符必须和目标串的字符匹配。例如P=a?b，T=acb，则P 和 T 匹配。
+ */
 public class MeiTuan{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
