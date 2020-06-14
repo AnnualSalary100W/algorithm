@@ -1,5 +1,7 @@
 package handwritten;
-
+/*
+双重校验单例模式（DCL）
+ */
 public class Singleton2 {
     private volatile static Singleton2 singleton2;
     private Singleton2(){}
