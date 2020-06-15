@@ -5,7 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*
+编写一个函数来查找字符串数组中的最长公共前缀。
+如果不存在公共前缀，返回空字符串 ""。
+ */
 public class LongestCommonPrefix {
     public static void main(String[] args) {
         String[] strs=new String[]{"flower","flow","flight"};
