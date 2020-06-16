@@ -3,7 +3,9 @@ package leetcode;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
-
+/*
+二叉树的序列化与反序列化
+ */
 public class SerializeDeserialize {
     public class TreeNode {
         int val;
