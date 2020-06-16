@@ -1,5 +1,7 @@
 package leetcode;
-
+/*
+数字转字母
+ */
 public class TranslateNum {
 
     public  static int translateNum(int num){
