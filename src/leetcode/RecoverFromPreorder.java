@@ -2,7 +2,9 @@ package leetcode;
 
 
 import java.util.Stack;
-
+/*
+我们从二叉树的根节点 root 开始进行深度优先搜索。
+ */
 public class RecoverFromPreorder {
     public class TreeNode {
      int val;
