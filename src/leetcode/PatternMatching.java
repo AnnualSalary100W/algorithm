@@ -5,6 +5,7 @@ package leetcode;
 例如，字符串"catcatgocatgo"匹配模式"aabab"（其中"cat"是"a"，"go"是"b"），该字符串也匹配像"a"、"ab"和"b"这样的模式。
 
 但需注意"a"和"b"不能同时表示相同的字符串。编写一个方法判断value字符串是否匹配pattern字符串。
+
  */
 public class PatternMatching {public boolean patternMatching(String pattern, String value) {
     int count_a = 0, count_b = 0;
