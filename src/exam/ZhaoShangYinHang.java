@@ -1,7 +1,9 @@
 package exam;
 
 import java.util.Scanner;
-
+/*
+洗牌
+ */
 public class ZhaoShangYinHang {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
