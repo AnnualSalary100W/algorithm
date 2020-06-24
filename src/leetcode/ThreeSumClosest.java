@@ -1,7 +1,12 @@
 package leetcode;
 
 import java.util.Arrays;
+/*
+给定一个包括 n 个整数的数组 nums 和 一个目标值 target
+找出 nums 中的三个整数，使得它们的和与 target 最接近
+返回这三个数的和。假定每组输入只存在唯一答案。
 
+ */
 public class ThreeSumClosest {
     public static void main(String[] args) {
            int[] nums=new int[]{-55,-24,-18,-11,-7,-3,4,5,6,9,11,23,33};
