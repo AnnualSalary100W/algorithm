@@ -3,6 +3,10 @@ package leetcode;
 import java.util.HashMap;
 import java.util.HashSet;
 
+/*
+移除重复节点
+ */
+
 public class RemoveDuplicateNodes {
     public class ListNode {
         int val;
