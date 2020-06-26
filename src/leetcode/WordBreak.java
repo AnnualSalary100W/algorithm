@@ -8,7 +8,6 @@ import java.util.Set;
 说明：
 拆分时可以重复使用字典中的单词。
 你可以假设字典中没有重复的单词。
-
  */
 public class WordBreak {
     public boolean wordBreak(String s, List<String> wordDict) {
