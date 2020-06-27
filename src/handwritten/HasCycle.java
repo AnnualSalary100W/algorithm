@@ -1,5 +1,7 @@
 package handwritten;
-
+/*
+单链表有环
+ */
 public class HasCycle {
     class ListNode{
         int val;
