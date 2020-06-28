@@ -1,5 +1,9 @@
 package leetcode;
-
+/*
+给定一个含有 n 个正整数的数组和一个正整数 s
+找出该数组中满足其和 ≥ s 的长度最小的连续子数组，并返回其长度
+如果不存在符合条件的连续子数组，返回 0。
+ */
 public class MinSubArrayLen {
     public static void main(String[] args) {
         int s=7;
