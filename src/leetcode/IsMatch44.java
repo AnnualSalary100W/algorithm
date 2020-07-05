@@ -1,5 +1,8 @@
 package leetcode;
-
+/*
+给定一个字符串 (s) 和一个字符模式 (p) ，
+实现一个支持 '?' 和 '*' 的通配符匹配。
+ */
 public class IsMatch44 {
     public boolean isMatch(String s, String p) {
         int m = s.length();
