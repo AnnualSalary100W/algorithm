@@ -4,6 +4,7 @@ package leetcode;
 说明: 叶子节点是指没有子节点的节点。
 示例: 
 给定如下二叉树，以及目标和 sum = 22
+
  */
 public class HasPathSum112 {
 
