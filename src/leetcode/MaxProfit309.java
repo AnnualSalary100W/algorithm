@@ -8,6 +8,7 @@ package leetcode;
  */
 
 
+
 public class MaxProfit309 {
     public int maxProfit(int[] prices) {
         if (prices.length == 0) {
