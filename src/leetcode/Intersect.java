@@ -1,7 +1,6 @@
 package leetcode;
 /*
 两个数组的交集 II
-
  */
 import java.util.ArrayList;
 import java.util.Arrays;
