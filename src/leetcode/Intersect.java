@@ -10,9 +10,7 @@ public class Intersect {
     public static void main(String[] args) {
         int[] nums1=new int[]{4,9,5};
         int[] nums2=new int[]{9,4,9,8,4};
-        int[] arr=new int[]{};
- arr=intersect(nums1,nums2);
-        System.out.println(arr.toString());
+
     }
     public static int[] intersect(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);
