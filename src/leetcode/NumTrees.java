@@ -1,6 +1,7 @@
 package leetcode;
 /*
 96. 不同的二叉搜索树
+
  */
 public class NumTrees {
     public int numTrees(int n) {
