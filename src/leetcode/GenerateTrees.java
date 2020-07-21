@@ -2,6 +2,9 @@ package leetcode;
 
 import java.util.LinkedList;
 import java.util.List;
+/*
+给定一个整数 n，生成所有由 1 ... n 为节点所组成的 二叉搜索树 。
+ */
 
 public class GenerateTrees {
     public class TreeNode {
