@@ -1,6 +1,7 @@
 package leetcode;
 /*
 剑指 Offer 11. 旋转数组的最小数字
+二分查找都不会还找什么工作啊！！！！！
  */
 public class minArray {
     public static void main(String[] args) {
