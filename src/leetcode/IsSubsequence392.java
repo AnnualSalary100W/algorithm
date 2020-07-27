@@ -1,5 +1,7 @@
 package leetcode;
-
+/*
+392. 判断子序列
+ */
 public class IsSubsequence392 {
     public static void main(String[] args) {
         String s="abc",t="ahbgdc";
