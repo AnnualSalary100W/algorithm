@@ -3,7 +3,9 @@ package leetcode;
 import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
-
+/*
+632. 最小区间
+ */
 public class SmallestRange632 {
     public int[] smallestRange(List<List<Integer>> nums) {
         int rangeLeft = 0, rangeRight = Integer.MAX_VALUE;
