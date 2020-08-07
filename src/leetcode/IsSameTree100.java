@@ -28,8 +28,6 @@ public class IsSameTree100 {
             return false;}
         else{ return  isSameTree(p.left,q.left)&&isSameTree(p.right,q.right);
         }
-
-
     }
 
 
