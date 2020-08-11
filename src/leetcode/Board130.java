@@ -2,7 +2,6 @@ package leetcode;
 /*
 130. 被围绕的区域
  */
-
 public class Board130 {
     int n, m;
 
