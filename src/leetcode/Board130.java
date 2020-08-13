@@ -29,7 +29,6 @@ public class Board130 {
             }
         }
     }
-
     public void dfs(char[][] board, int x, int y) {
         if (x < 0 || x >= n || y < 0 || y >= m || board[x][y] != 'O') {
             return;
