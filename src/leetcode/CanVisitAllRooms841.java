@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.List;
+
 public class CanVisitAllRooms841 {
     boolean[] vis;
     int num;
