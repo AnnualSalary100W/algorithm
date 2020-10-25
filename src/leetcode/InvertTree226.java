@@ -7,7 +7,6 @@ public class InvertTree226 {
      TreeNode right;
      TreeNode(int x) { val = x; }
  }
-
     class Solution {
         public TreeNode invertTree(TreeNode root) {
             if (root==null) return null;
