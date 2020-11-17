@@ -24,6 +24,7 @@ public class CanPartition {
         }
         dp[0][nums[0]] = true;
         for (int i = 1; i < n; i++) {
+            int a = Integer.MAX_VALUE;
             int num = nums[i];
             for (int j = 1; j <= target; j++) {
                 if (j >= num) {
