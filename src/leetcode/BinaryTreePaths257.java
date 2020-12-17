@@ -3,7 +3,9 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class BinaryTreePaths257 {
+
 
     public class TreeNode {
       int val;
