@@ -15,6 +15,8 @@ public class ZigzagLevelOrder {
         Queue<TreeNode> nodeQueue = new LinkedList<TreeNode>();
         nodeQueue.offer(root);
         boolean isOrderLeft = true;
+        String s = "a";
+
 
         while (!nodeQueue.isEmpty()) {
             Deque<Integer> levelList = new LinkedList<Integer>();
