@@ -3,6 +3,7 @@ package leetcode;
 import java.util.Arrays;
 
 public class FindContentChildren {
+
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
         Arrays.sort(s);
