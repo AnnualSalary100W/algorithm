@@ -1,6 +1,7 @@
 package leetcode;
 
 public class MinPatches {
+
     public int minPatches(int[] nums, int n) {
         int patches = 0;
         long x = 1;
