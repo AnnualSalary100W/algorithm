@@ -3,6 +3,7 @@ package leetcode;
 import java.util.Scanner;
 
 public class Alibaba {
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
