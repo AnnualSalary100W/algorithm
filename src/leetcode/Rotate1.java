@@ -2,6 +2,7 @@ package leetcode;
 
 public class Rotate1 {
     public static int[] rotate(int[] nums, int k) {
+
        int n = nums.length;
        int[] nums1 = new int[n];
         for (int i = 0; i < n; i++) {
