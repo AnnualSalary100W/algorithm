@@ -1,6 +1,7 @@
 package leetcode;
 
 public class CanPartition {
+    
     public boolean canPartition(int[] nums) {
         int n = nums.length;
         if (n < 2) {
