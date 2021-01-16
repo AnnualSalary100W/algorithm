@@ -1,5 +1,6 @@
 package leetcode;
 
+
 public class CanCompleteCircuit {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int n = gas.length;
