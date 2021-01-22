@@ -12,6 +12,7 @@ import java.util.Stack;
 
  */
 public class Offer_21 {
+    
     public static void main(String[] args) {
         int[] pushA={1,2,3,4,5};
         int[] popA={4,5,3,1,2};
