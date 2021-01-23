@@ -4,6 +4,7 @@ package leetcode;
  */
 public class Board130 {
     int n, m;
+    
 
     public void solve(char[][] board) {
         n = board.length;
