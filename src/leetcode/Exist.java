@@ -18,6 +18,7 @@ public class Exist {
         }
         return false;
     }
+
     public boolean dfs(char[][] board, String word, int x, int y, int k, int[][] isVisited) {
         if (k >= word.length()) return true;
         isVisited[x][y] = 1;
