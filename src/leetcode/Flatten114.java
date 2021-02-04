@@ -1,6 +1,8 @@
 package leetcode;
 
 public class Flatten114 {
+    
+    
     public class TreeNode {
      int val;
       TreeNode left;
