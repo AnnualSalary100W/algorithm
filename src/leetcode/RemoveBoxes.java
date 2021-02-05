@@ -2,6 +2,7 @@ package leetcode;
 
 public class RemoveBoxes {
     public int removeBoxes(int[] boxes) {
+        
         int[][][] dp = new int[100][100][100];
         return calculatePoints(boxes, dp, 0, boxes.length - 1, 0);
     }
