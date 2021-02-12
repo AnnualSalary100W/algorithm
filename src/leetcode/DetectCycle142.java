@@ -1,6 +1,7 @@
 package leetcode;
 
 public class DetectCycle142 {
+     
      class ListNode {
      int val;
      ListNode next;
