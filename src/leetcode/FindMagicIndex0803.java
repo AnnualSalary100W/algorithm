@@ -5,6 +5,7 @@ package leetcode;
 若有多个魔术索引，返回索引值最小的一个
  */
 public class FindMagicIndex0803 {
+    
     public int findMagicIndex(int[] nums) {
         int n=nums.length;
         for (int i = 0; i <n ; i++) {
