@@ -1,5 +1,7 @@
 package offer;
 
+
+
 /*
 public class RandomListNode {
     int label;
