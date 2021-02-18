@@ -3,7 +3,6 @@ package leetcode;
 import java.util.Arrays;
 
 public class FindBestValue {
-
     public static void main(String[] args) {
         int[] arr=new int[]{4,9,3};
         int target=10;
