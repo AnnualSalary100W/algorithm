@@ -17,8 +17,6 @@ public class RecoverTree99 {
          this.right = right;
      }
   }
-
-
     public void recoverTree(TreeNode root) {
         List<Integer> nums = new ArrayList<Integer>();
         inorder(root, nums);
