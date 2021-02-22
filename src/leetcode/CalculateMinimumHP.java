@@ -1,6 +1,5 @@
 package leetcode;
 import java.util.Arrays;
-
 public class CalculateMinimumHP {
     public int calculateMinimumHP(int[][] dungeon) {
         int n = dungeon.length, m = dungeon[0].length;
