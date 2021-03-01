@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CombinationSum40 {
-
     List<int[]> freq = new ArrayList<int[]>();
     List<List<Integer>> ans = new ArrayList<List<Integer>>();
     List<Integer> sequence = new ArrayList<Integer>();
