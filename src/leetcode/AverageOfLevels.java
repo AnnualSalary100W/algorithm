@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Queue;
 
 public class AverageOfLevels {
-    
     public class TreeNode {
       int val;
      TreeNode left;
