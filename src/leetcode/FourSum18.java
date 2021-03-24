@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FourSum18 {
+
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> quadruplets = new ArrayList<List<Integer>>();
         if (nums == null || nums.length < 4) {

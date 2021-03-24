@@ -2,9 +2,6 @@ package leetcode;
 
 public class IsLongPressedName {
     public static void main(String[] args) {
-
-
-
         String s1 =  "kikcxmvzi";
         String s2 =  "kiikcxxmmvvzz";
         System.out.println(isLongPressedName(s1,s2));

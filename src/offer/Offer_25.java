@@ -1,5 +1,7 @@
 package offer;
 
+
+
 /*
 public class RandomListNode {
     int label;
@@ -27,6 +29,7 @@ public class Offer_25 {
         RandomListNode random = null;
 
         RandomListNode(int label) {
+            
             this.label = label;
         }
     }

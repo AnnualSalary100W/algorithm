@@ -1,5 +1,6 @@
 package leetcode;
 
+
 public class InvertTree226 {
       public class TreeNode {
       int val;

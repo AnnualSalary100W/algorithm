@@ -5,7 +5,6 @@ import java.util.List;
 public class CanVisitAllRooms841 {
     boolean[] vis;
     int num;
-
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         int n = rooms.size();
         num = 0;

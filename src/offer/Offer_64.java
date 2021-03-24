@@ -5,6 +5,7 @@ package offer;
 如果一条路径经过了矩阵中的某一个格子，则该路径不能再进入该格子。
  */
 public class Offer_64 {
+    
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str)
     {
         //标志位，初始化为false
