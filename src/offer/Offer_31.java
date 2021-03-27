@@ -9,6 +9,7 @@ ACMer希望你们帮帮他,并把问题更加普遍化,可以很快的求出任�
  */
 public class Offer_31 {
     public static void main(String[] args) {
+        
         System.out.println(NumberOf1Between1AndN_Solution(2000));
     }
     public static int NumberOf1Between1AndN_Solution(int n) {
